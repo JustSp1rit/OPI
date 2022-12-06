@@ -18,7 +18,7 @@ while (x <= b)
 {
 Y = log(pow(x,3)) + 2*cos(x) - 2;
 cout << "x = " << x << "\nY = " << Y << endl;
-x += h;
+x = x + h;
 }
 
 return 0;
